@@ -278,3 +278,62 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+/* media */
+@media screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    .resume {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero {
+        padding: 50px 20px;
+    }
+
+    #hero h2 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    .resume {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+
+    #logos {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
