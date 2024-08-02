@@ -17,6 +17,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    margin-right: -4rem;
     padding: 1rem;
 }
 
