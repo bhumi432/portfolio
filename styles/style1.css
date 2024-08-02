@@ -1,0 +1,280 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #694b74;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    width: 55%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+/* Header Styles */
+
+.button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: #4f3758;
+    cursor: pointer;
+    border: 2px solid #4f3758;
+    overflow: hidden;
+    border-radius: 30px;
+    color: f0e7ef;
+    transition: all 0.5s ease-in-out;
+    
+
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 800;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  .type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #f0e7ef;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+  }
+  
+  .type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+  
+  
+header {
+    background: #271928;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: 20px;
+    font-size: 3
+    0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#Bhumi{
+    width: 300px; 
+    height: auto;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+#hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #633662;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.container1 {
+    background-color: #beadc4;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    border-radius: 15px;
+    
+}
+.container1 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px; 
+    height: auto; 
+}
+
+.btn-primary {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.text {
+    overflow: hidden;
+    border-right: .15em solid rgb(186, 163, 193);
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 2s steps(40),
+      blink-caret .75s step-end infinite;
+  }
+  
+ 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(205, 181, 211); }
+  }
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.resume{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 560px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+}
+
+.project {
+    background-color: #beadc4;
+    border: 3px solid #beadc4;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 500px;
+    height: 280px;
+
+  
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer Styles */
+#logos{
+    padding-left: 510px;
+}
+.logo{
+    width: 80px;
+    height: auto;
+    
+}
+.logo1{
+    width: 75px;
+    height: 75px;
+    margin-left: -10px;
+
+}
+.logo2{
+    width: 65px;
+    height: 66px;
+    
+    padding-bottom: 12px;
+
+}
+footer {
+    background: 3d243e;
+    color: #372b37;
+    padding: 10px 0;
+    text-align: center;
+}
