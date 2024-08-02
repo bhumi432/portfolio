@@ -274,7 +274,7 @@ form button:hover {
 
 footer {
     background: #3d243e;
-    color: #372b37;
+    color: #9c799c;
     padding: 1rem 0;
     text-align: center;
 }
@@ -315,7 +315,7 @@ footer {
         margin: 0.5rem 0;
     }
     .resume {
-        margin-left: 0;
+        margin-left: 2rem;
         text-align: center;
     }
 }
